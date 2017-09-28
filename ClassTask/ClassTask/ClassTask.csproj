@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3CD99E0C-38E1-4E89-B57F-2A2275C6F243}</ProjectGuid>
+    <ProjectGuid>{E63291BA-FCB9-43D0-B32D-9D864800819B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp3</RootNamespace>
-    <AssemblyName>ConsoleApp3</AssemblyName>
+    <RootNamespace>ClassTask</RootNamespace>
+    <AssemblyName>ClassTask</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\..\Documents\inclass.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tree.cs" />
+    <Compile Include="Trees.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
