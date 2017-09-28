@@ -9,7 +9,7 @@ namespace ClassTask
     class Tree
     {
        public double numBranches;
-        private string color;
+        public string color;
         private bool alive;
         private int roots;
 
