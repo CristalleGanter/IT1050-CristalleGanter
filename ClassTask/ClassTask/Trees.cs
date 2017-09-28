@@ -13,6 +13,11 @@ namespace ClassTask
         private bool alive;
         private int roots;
 
+        public void Display()
+        {
+            Console.WriteLine($"Tree:\nnumBranches={numBranches}\ncolor={color}\nalive={alive}");
+
+        }
     }
     
     }
