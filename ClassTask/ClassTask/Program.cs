@@ -14,7 +14,7 @@ namespace ClassTask
         {
             Tree Maple = new Tree();
             Maple.numBranches = 25;
-            Maple.color = orange;
+            Maple.color = "orange";
             Maple.Display();
 
             Tree Plum = new Tree();
