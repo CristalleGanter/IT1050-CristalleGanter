@@ -10,7 +10,7 @@ namespace Lab03_CristalleGanter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine("Hello Worasdfld");
         }
     }
 }
