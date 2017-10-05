@@ -18,6 +18,13 @@ namespace Lab003_CristalleGanter
             b = Convert.ToInt32(Console.ReadLine());
             result = a + b;
             Console.WriteLine("The Solution is " + result);
+
+            int x = 3;
+            int y = 2;
+            int z = 8;
+            int result2;
+            result2 = (x + y) * (z + 10);
+            Console.WriteLine("The Solution is " + result2);
         }
     }
 }
