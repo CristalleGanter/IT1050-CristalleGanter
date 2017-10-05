@@ -24,7 +24,12 @@ namespace Lab003_CristalleGanter
             int z = 8;
             int result2;
             result2 = (x + y) * (z + 10);
-            Console.WriteLine("The Solution is " + result2);
+            Console.WriteLine("The Solution to (x+y)*(z+10) is " + result2);
+
+            Console.WriteLine("Hello\t World!");
+            Console.WriteLine("Hello \nWorld");
+            Console.WriteLine("\"Hello World!\"");
+            Console.WriteLine("Hello\\World!");
         }
     }
 }
