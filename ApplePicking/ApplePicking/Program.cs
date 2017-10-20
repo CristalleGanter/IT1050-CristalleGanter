@@ -12,11 +12,11 @@ namespace ApplePicking
         {
             Console.WriteLine("Welcome to the apple farm!");
             Console.WriteLine("\n    ~~~~~~ \n   (      ) \n  (        )\n  (        )\n   (      )\n     |  |\n     |  |\n     |  |\n     |  |");
-
+            Console.WriteLine("\n    ~~~~~    \n  (       ) \n (         )\n (         )\n  ~~~~~~~~~\n  ~~~~~~~~~\n  ~~~~~~~~~\n  ~~~~~~~~~");
 
             int app = 0;
             Console.WriteLine("You have {0} apples.", app);
-            Console.WriteLine("\n Would you like to pick apples?");
+            Console.WriteLine("\nWould you like to pick apples?");
             string ans;
             ans = Console.ReadLine();
 
