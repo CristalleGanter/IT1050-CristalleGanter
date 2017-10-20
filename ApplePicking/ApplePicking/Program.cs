@@ -22,6 +22,15 @@ namespace ApplePicking
             if (ans == "n")
             { Console.WriteLine("You have {0} apples.", app); }
 
+            Console.WriteLine("Would you like to pick apples?");
+            string ans2;
+            ans2 = Console.ReadLine();
+
+            if (ans2 == "y")
+            { app++; Console.WriteLine("You have {0} apples.", app); }
+
+            if (ans2 == "n")
+            { Console.WriteLine("You have {0} apples.", app); }
 
         }
     }
