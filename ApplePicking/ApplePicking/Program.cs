@@ -10,7 +10,7 @@ namespace ApplePicking
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the apple farm!");
+            Console.WriteLine("Welcome to the Apple Farm!");
             Console.WriteLine("\n    ~~~~~~ \n   (      ) \n  (        )\n  (        )\n   (      )\n     |  |\n     |  |\n     |  |\n     |  |");
             Console.WriteLine("\n    ~~~~~    \n  (       ) \n (         )\n (         )\n  ~~~~~~~~~\n  ~~~~~~~~~\n  ~~~~~~~~~\n  ~~~~~~~~~");
 
@@ -35,6 +35,22 @@ namespace ApplePicking
 
             if (ans2 == "n")
             { Console.WriteLine("You have {0} apples.", app); }
+
+            while (app < 10)
+            {
+                Console.WriteLine("Would you like to pick apples?");
+                string ans3;
+                ans3 = Console.ReadLine();
+
+                if (ans3 == "y")
+                { app++; Console.WriteLine("You have {0} apples.", app); }
+
+                if (ans3 == "n")
+                { Console.WriteLine("You have {0} apples.", app); }
+            }
+            if (app>=10)
+            { Console.WriteLine("Your basket is full."); }
+            
 
         }
     }
