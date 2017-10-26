@@ -19,7 +19,13 @@ namespace CristalleGanterLab7
             int i = 30;
             for (i = 30; i <= 45; i++)
             { Console.WriteLine(i); }
-           
+
+            int t = 20;
+            if (t<=11)
+            { Console.WriteLine("Good Morning"); }
+            
+            
+
 
         }
     }
