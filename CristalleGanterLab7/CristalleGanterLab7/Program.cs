@@ -16,7 +16,9 @@ namespace CristalleGanterLab7
             while (n<9)
             { Console.WriteLine(n + 2); n = n + 2; }
 
-
+            int i = 30;
+            for (i = 30; i <= 45; i++)
+            { Console.WriteLine(i); }
            
 
         }
