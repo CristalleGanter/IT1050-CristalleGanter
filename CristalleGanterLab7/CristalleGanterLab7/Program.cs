@@ -58,9 +58,15 @@ namespace CristalleGanterLab7
                         Console.Write("*");
                         Console.WriteLine();
 
-                        for (int z = 1; z <=3; z++)
+                        for (int z = 1; z <2; z++)
                         {
                             Console.Write("*");
+                           
+                            for (int v = 1; v <=2; v++)
+                            {
+                                Console.Write("*");
+
+                            }
                             
                         }
 
