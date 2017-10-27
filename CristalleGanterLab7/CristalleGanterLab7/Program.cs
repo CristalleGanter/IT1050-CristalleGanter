@@ -38,6 +38,15 @@ namespace CristalleGanterLab7
             }
 
 
+            for (int c = 0; c < 101; c++)
+            {
+                Console.WriteLine(c);
+                Console.WriteLine("********");
+            }
+
+
+
+
         }
     }
 }
