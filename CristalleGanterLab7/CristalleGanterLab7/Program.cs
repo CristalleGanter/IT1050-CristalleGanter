@@ -10,10 +10,10 @@ namespace CristalleGanterLab7
     {
         static void Main(string[] args)
         {
-            int n =1;
+            int n = 1;
             Console.WriteLine(n);
 
-            while (n<9)
+            while (n < 9)
             { Console.WriteLine(n + 2); n = n + 2; }
 
             int i = 30;
@@ -21,13 +21,13 @@ namespace CristalleGanterLab7
             { Console.WriteLine(i); }
 
             int t = 17;
-            if (t<=11)
+            if (t <= 11)
             { Console.WriteLine("Good Morning"); }
 
-            if (t >= 12 && t<=16)
+            if (t >= 12 && t <= 16)
             { Console.WriteLine("Good Afternoon"); }
 
-            if (t>16)
+            if (t > 16)
             { Console.WriteLine("Good Evening"); }
 
             // There was no part where anything was added to the initial number so it just kept putting out 10.
@@ -46,38 +46,26 @@ namespace CristalleGanterLab7
 
             int p = 1;
             for (p = 1; p <= 1; p++)
-            { Console.Write("*");
+            {
+                Console.Write("*");
                 Console.WriteLine();
-
-                for (int q =1; q<2;q++)
-                { Console.Write("*");
-                    
-
-                    for (int m = 1; m <2; m++)
-                    {
-                        Console.Write("*");
-                        Console.WriteLine();
-
-                        for (int z = 1; z <2; z++)
-                        {
-                            Console.Write("*");
-                           
-                            for (int v = 1; v <=2; v++)
-                            {
-                                Console.Write("*");
-
-                            }
-                            
-                        }
-
-                    }
-
+                for (int r = 1; r <=1; r++)
+                {
+                    Console.Write("**");
+                    Console.WriteLine();
 
                 }
 
+                for (int q = 1; q <= 1; q++)
+                {
+                    Console.Write("***");
+                    Console.WriteLine();
+                }
+
             }
-              
-           
+
+
         }
-    }
+
+        } 
 }
