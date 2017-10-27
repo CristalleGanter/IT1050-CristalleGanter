@@ -30,6 +30,13 @@ namespace CristalleGanterLab7
             if (t>16)
             { Console.WriteLine("Good Evening"); }
 
+            // There was no part where anything was added to the initial number so it just kept putting out 10.
+            int x = 10;
+            while (x < 21)
+            {
+                Console.WriteLine(x++);
+            }
+
 
         }
     }
