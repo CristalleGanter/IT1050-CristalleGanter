@@ -11,14 +11,16 @@ namespace CristalleGanterIT1050Test1
         static void Main(string[] args)
         {
             int x = 0;
-            
+            int counter = 0;
             while (x != 128)
 
             {
-                int counter = 1;counter++;
+                counter++;
                 x = x + 2;
 
-                Console.WriteLine("[{0}]\n",x); }
+                Console.WriteLine("[{0}]\n",x);
+                Console.WriteLine(counter);
+            }
         }
     }
 }
