@@ -13,9 +13,10 @@ namespace CristalleGanterIT1050Test1
             // number 1
 
             bool keepLooping = true;
+            while (keepLooping)
+            { Console.WriteLine("c"); }
 
-
-
+            Console.WriteLine("\n");
             // number 2
             int x = 0;
             int counter = 0;
