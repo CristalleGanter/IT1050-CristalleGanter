@@ -12,9 +12,9 @@ namespace CristalleGanterIT1050Test1
         {
             // number 1
 
-            bool keepLooping = true;
-            while (keepLooping)
-            { Console.WriteLine("Just keep looping."); }
+           // bool keepLooping = true;
+          //  while (keepLooping)
+           // { Console.WriteLine("Just keep looping."); }
 
             Console.WriteLine("\n");
             // number 2
