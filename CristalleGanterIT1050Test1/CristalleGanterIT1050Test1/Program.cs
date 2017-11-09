@@ -52,10 +52,10 @@ namespace CristalleGanterIT1050Test1
 
             // number 7
 
-            for (int l=0; l<=5; l++)
+            for (int l=1; l<=6; l++)
             
             {
-                for (int a=1;a<=5;a++)
+                for (int c=1;c<l;c++)
                 { Console.Write(" "); }
 
                 for (int a = 1; a <= 5; a++)
