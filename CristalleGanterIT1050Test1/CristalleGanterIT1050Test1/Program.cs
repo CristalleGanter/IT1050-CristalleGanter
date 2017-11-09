@@ -50,6 +50,16 @@ namespace CristalleGanterIT1050Test1
             Console.WriteLine("\n");
             // number 5
 
+            int n = 8;
+            int k = 10; // initialize
+            do
+            {
+                Console.Write("*");
+                k++; // update!
+            } while (k < n); // test condition
+
+            // a while loop checks the condition before deciding to run the code. A do while loop will run the code then go back to check the condition.
+
             Console.WriteLine("\n");
             // number 6
             bool icyRain = false;
