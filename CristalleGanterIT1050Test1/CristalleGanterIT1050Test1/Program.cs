@@ -48,7 +48,24 @@ namespace CristalleGanterIT1050Test1
                 i = i + 2;
             }
 
+            // number 5
 
+            // number 7
+
+            for (int l=0; l<=5; l++)
+            
+            {
+                for (int a=1;a<=5;a++)
+                { Console.Write(" "); }
+
+                for (int a = 1; a <= 5; a++)
+                { Console.Write("{0}",a);
+                    
+                }
+                for (int b = 4; b >=1; b--)
+                { Console.Write("{0}", b); }
+                Console.WriteLine();
+            }
 
 
 
