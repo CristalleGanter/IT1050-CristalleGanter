@@ -14,7 +14,7 @@ namespace CristalleGanterIT1050Test1
 
             bool keepLooping = true;
             while (keepLooping)
-            { Console.WriteLine("c"); }
+            { Console.WriteLine("Just keep looping."); }
 
             Console.WriteLine("\n");
             // number 2
