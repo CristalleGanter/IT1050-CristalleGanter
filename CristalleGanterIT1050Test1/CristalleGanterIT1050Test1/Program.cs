@@ -63,7 +63,7 @@ namespace CristalleGanterIT1050Test1
                    
                 }
 
-                for (int b = 4; b >= 1; b--)
+                for (int b = 1; b <l; b++)
                 { Console.Write(b); }
 
 
