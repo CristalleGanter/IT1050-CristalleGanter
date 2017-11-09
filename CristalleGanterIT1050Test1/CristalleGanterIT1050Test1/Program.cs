@@ -50,6 +50,15 @@ namespace CristalleGanterIT1050Test1
             Console.WriteLine("\n");
             // number 5
 
+            Console.WriteLine("\n");
+            // number 6
+            bool icyRain = false;
+            bool tornadoWarning = false;
+
+
+
+
+            Console.WriteLine("\n");
             // number 7
 
             for (int l=5; l>=1; l--)
