@@ -37,7 +37,7 @@ namespace CristalleGanterIT1050Test1
                 
             }
 
-            Console.WriteLine("/n");
+            Console.WriteLine("\n");
 
             // number 4
 
@@ -47,29 +47,33 @@ namespace CristalleGanterIT1050Test1
                 Console.Write("{0}   ",i);
                 i = i + 2;
             }
-
+            Console.WriteLine("\n");
             // number 5
 
             // number 7
 
-            for (int l=1; l<=6; l++)
+            for (int l=5; l>=1; l--)
             
             {
-                for (int c=1;c<l;c++)
+                for (int c=5;c>l;c--)
                 { Console.Write(" "); }
-
-                for (int a = 1; a <= 5; a++)
-                { Console.Write("{0}",a);
-                    
+               
+                for (int a = 1; a <= l; a++)
+                { Console.Write(a);
+                   
                 }
-                for (int b = 4; b >=1; b--)
-                { Console.Write("{0}", b); }
+
+                for (int b = 4; b >= 1; b--)
+                { Console.Write(b); }
+
+
+
+
                 Console.WriteLine();
             }
 
 
-
-
+           
 
         }
     }
