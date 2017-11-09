@@ -12,6 +12,7 @@ namespace CristalleGanterIT1050Test1
         {
             // number 1
 
+            bool keepLooping = true;
 
 
 
@@ -51,12 +52,12 @@ namespace CristalleGanterIT1050Test1
             // number 5
 
             int n = 8;
-            int k = 10; // initialize
-            do
+            int k = 10; 
+            while (k < n) 
             {
                 Console.Write("*");
-                k++; // update!
-            } while (k < n); // test condition
+                k++;
+            }  
 
             // a while loop checks the condition before deciding to run the code. A do while loop will run the code then go back to check the condition.
 
