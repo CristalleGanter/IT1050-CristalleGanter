@@ -55,8 +55,10 @@ namespace CristalleGanterIT1050Test1
             bool icyRain = false;
             bool tornadoWarning = false;
 
-
-
+            if (icyRain&&tornadoWarning)
+            { Console.WriteLine("Let's stay inside!"); }
+            else
+            { Console.WriteLine("Let's go outside!"); }
 
             Console.WriteLine("\n");
             // number 7
