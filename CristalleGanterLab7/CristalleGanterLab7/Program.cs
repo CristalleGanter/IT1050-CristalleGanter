@@ -37,68 +37,14 @@ namespace CristalleGanterLab7
                 Console.WriteLine(x++);
             }
 
-
-            for (int c = 0; c < 101; c++)
+            for (int k=1; k<=10;k++)
             {
-                Console.WriteLine(c);
-                Console.WriteLine("********");
-            }
-
-            int p = 1;
-            for (p = 1; p <= 1; p++)
-            {
-                Console.Write("*");
+                for (int j =1; j<=k;j++)
+                { Console.Write("*"); }
                 Console.WriteLine();
-                for (int r = 1; r <=1; r++)
-                {
-                    Console.Write("**");
-                    Console.WriteLine();
-
-                }
-
-                for (int q = 1; q <= 1; q++)
-                {
-                    Console.Write("***");
-                    Console.WriteLine();
-                }
-
-                for (int e = 1; e <= 1; e++)
-                {
-                    Console.Write("****");
-                    Console.WriteLine();
-                }
-                for (int w = 1; w <= 1; w++)
-                {
-                    Console.Write("*****");
-                    Console.WriteLine();
-                }
-                for (int y = 1; y <= 1; y++)
-                {
-                    Console.Write("******");
-                    Console.WriteLine();
-                }
-                for (int u = 1; u <= 1; u++)
-                {
-                    Console.Write("*******");
-                    Console.WriteLine();
-                }
-
-                for (int a = 1; a <= 1; a++)
-                {
-                    Console.Write("********");
-                    Console.WriteLine();
-                }
-                for (int z = 1; z <= 1; z++)
-                {
-                    Console.Write("*********");
-                    Console.WriteLine();
-                }
-                for (int c = 1; c <= 1; c++)
-                {
-                    Console.Write("**********");
-                    Console.WriteLine();
-                }
             }
+          
+    
 
 
         }
