@@ -33,13 +33,20 @@ namespace CristalleGanterIT1050Test1
 
             for (int y = 49; y >= 1; y--)
             {
-                Console.WriteLine("{0}",y); if (y != 1) { Console.WriteLine(","); }
+                Console.Write("{0}",y); if (y != 1) { Console.Write(","); }
                 
             }
 
+            Console.WriteLine("/n");
 
+            // number 4
 
-
+            int i = 1;
+            while (i!=23)
+            {
+                Console.Write("{0}   ",i);
+                i = i + 2;
+            }
 
 
 
