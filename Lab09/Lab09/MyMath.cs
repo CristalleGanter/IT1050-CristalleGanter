@@ -13,7 +13,7 @@ namespace Lab09
         double operand2;
 
         public void Multiply(double operand1, double operand2)
-        { }
+        { operand1 *= operand2; }
 
     }
 }
