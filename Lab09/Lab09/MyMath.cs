@@ -8,12 +8,34 @@ namespace Lab09
 {
     class MyMath
     {
-        double result;
-        double operand1;
-        double operand2;
+         
+        public int result;
+        public int operand1;
+        public int operand2;
+        public string lastoperator;
 
-        public void Multiply(double operand1, double operand2)
-        { operand1 *= operand2; }
+        public int Add(int a, int b)
+        {
+            operand1 = a;
+            operand2 = b;
+            lastoperator = "+";
+            result = a + b;
+            return result;
+        }
+        public void DisplayLastOperation()
+        {
+            Console.WriteLine(operand1 + lastoperator + operand2 + "=" + result);
+        }
+
+        public int Subtract(int a, int b)
+        {
+            return a - b;
+        }
+
+        public static int Multiply(int a, int b)
+        {
+            return a * b;
+        }
 
     }
 }
