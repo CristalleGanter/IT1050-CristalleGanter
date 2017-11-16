@@ -21,10 +21,7 @@ namespace Lab09
             result = a + b;
             return result;
         }
-        public void DisplayLastOperation()
-        {
-            Console.WriteLine(operand1 + operand2 + "=" + result);
-        }
+      
 
         public int Subtract(int a, int b)
         {

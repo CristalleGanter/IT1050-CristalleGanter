@@ -18,6 +18,12 @@ namespace Lab09
             MyMath mathObj1 = new MyMath();
             int sum = mathObj1.Add(3,4);
             { Console.WriteLine(sum); }
+
+            MyMath mathObj2 = new MyMath();
+            int difference = mathObj2.Subtract (3, 4);
+            { Console.WriteLine(difference); }
+
+
         }
     }
 }
