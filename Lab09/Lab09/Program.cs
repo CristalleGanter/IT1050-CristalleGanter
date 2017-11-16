@@ -14,6 +14,8 @@ namespace Lab09
             int product = MyMath.Multiply(7, 7);
             { Console.WriteLine(product); }
 
+            int quotient = MyMath.Divide (24, 7);
+            { Console.WriteLine(quotient); }
 
             MyMath mathObj1 = new MyMath();
             int sum = mathObj1.Add(3,4);
