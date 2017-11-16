@@ -10,21 +10,20 @@ namespace Lab09
     {
          
         public int result;
-        public int operand1;
-        public int operand2;
-        public string lastoperator;
+        public double operand1;
+        public double operand2;
+        
 
         public int Add(int a, int b)
         {
             operand1 = a;
             operand2 = b;
-            lastoperator = "+";
             result = a + b;
             return result;
         }
         public void DisplayLastOperation()
         {
-            Console.WriteLine(operand1 + lastoperator + operand2 + "=" + result);
+            Console.WriteLine(operand1 + operand2 + "=" + result);
         }
 
         public int Subtract(int a, int b)
