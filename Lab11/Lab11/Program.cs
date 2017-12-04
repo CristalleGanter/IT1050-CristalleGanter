@@ -18,7 +18,7 @@ namespace Lab11
             names[3] = "Ginger Rayle";
             names[4] = "Iona Ford";
 
-            Console.WriteLine(names[2]+ ":" + names[4]);
+            Console.WriteLine(names[2] + ":" + names[4]);
 
             // Question 2
 
@@ -44,28 +44,30 @@ namespace Lab11
 
             // Question 3
 
-            string[] seasons = new string [4] { "Spring", "Summer", "Fall", "Winter"};
+            string[] seasons = new string[4] { "Spring", "Summer", "Fall", "Winter" };
             seasons[0] = "Spring";
             seasons[1] = "Summer";
             seasons[2] = "Fall";
             seasons[3] = "Winter";
 
-            foreach(string name in names)
+            foreach (string name in names)
             {
                 Console.WriteLine(name);
             }
             for (int i = 0; i < 4; i++)
-            { 
+            {
                 Console.WriteLine(seasons[i]);
             }
 
             // Question 4 a
 
             Random random = new Random();
-            int randomNumber;
+            int randomNumber = random.Next(0, 100);
+            for (int x = 1; x < 1000; x++)
+            { randomNumber = random.Next(0, 1000); }
 
-
-            int[] stuff = new int[1000] { randomNumber};
+            int[] stuff = new int[1000] { randomNumber }
+        
 
             // Question 4 b
 
