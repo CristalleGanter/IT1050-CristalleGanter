@@ -18,11 +18,11 @@ namespace Lab11
             names[3] = "Ginger Rayle";
             names[4] = "Iona Ford";
 
-            Console.WriteLine(names[2]+ names[4]);
+            Console.WriteLine(names[2]+ ":" + names[4]);
 
             // Question 2
 
-            string[] months = { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" };
+            string[] months = new string[12] { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" };
             months[0] = "January";
             months[1] = "February";
             months[2] = "March";
@@ -41,6 +41,23 @@ namespace Lab11
                 Console.WriteLine(months[i]);
             }
 
+
+            // Question 3
+
+            string[] seasons = new string [4] { "Spring", "Summer", "Fall", "Winter"};
+            seasons[0] = "Spring";
+            seasons[1] = "Summer";
+            seasons[2] = "Fall";
+            seasons[3] = "Winter";
+
+            foreach(string name in names)
+            {
+                Console.WriteLine(name);
+            }
+            for (int i = 0; i < 4; i++)
+            { 
+                Console.WriteLine(seasons[i]);
+            }
 
 
 
