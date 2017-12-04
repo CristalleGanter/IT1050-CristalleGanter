@@ -62,13 +62,13 @@ namespace Lab11
             // Question 4 a
 
             int[] integers = new int[999];
-            for (int x = 0; x<999; x++)
+            for (int i = 1; i<999; i++)
             {
-                x++;
+                i++;
                 Random random = new Random();
                 int randomNumber;
                 randomNumber = random.Next(0, 100);
-                integers[x] = randomNumber;
+                integers[i] = randomNumber;
 
             }
 
