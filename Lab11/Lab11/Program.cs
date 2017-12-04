@@ -61,17 +61,25 @@ namespace Lab11
 
             // Question 4 a
 
-            Random random = new Random();
-            int randomNumber = random.Next(0, 100);
-            for (int x = 1; x < 1000; x++)
-            { randomNumber = random.Next(0, 1000); }
+            int[] integers = new int[999];
+            for (int x = 0; x<999; x++)
+            {
+                x++;
+                Random random = new Random();
+                int randomNumber;
+                randomNumber = random.Next(0, 100);
+                integers[x] = randomNumber;
 
-            int[] stuff = new int[1000] { randomNumber }
-        
+            }
+
 
             // Question 4 b
 
+            foreach (int element in integers)
+            {
+                Console.WriteLine(element);
 
+            }
 
         }
 
