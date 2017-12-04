@@ -59,7 +59,15 @@ namespace Lab11
                 Console.WriteLine(seasons[i]);
             }
 
+            // Question 4 a
 
+            Random random = new Random();
+            int randomNumber;
+
+
+            int[] stuff = new int[1000] { randomNumber};
+
+            // Question 4 b
 
 
 
