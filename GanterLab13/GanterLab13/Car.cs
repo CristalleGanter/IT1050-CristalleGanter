@@ -34,17 +34,17 @@ namespace GanterLab13
         }
 
 
-         SpeedUp()
+        public int SpeedUp()
         {if (Speed==0)
             { Speed++;
-                return;}
+                return Speed;}
                }
-
-           SlowDown()
+        
+        public int   SlowDown()
         {if (Speed>0)
 
             { Speed--; }
-            return;
+            return Speed;
                     }
 
 
