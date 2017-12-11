@@ -22,8 +22,20 @@ namespace GanterLab13
             this.Year = year;
             this.Speed = speed;
 
+        }
+
+        public Car(string make, string model, int year)
+        {
+            this.Make = make;
+            this.Model = model;
+            this.Year = year;
+            Speed = 0;
 
         }
+
+
+
+
 
     }
 }
