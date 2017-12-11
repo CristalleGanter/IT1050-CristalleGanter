@@ -35,9 +35,9 @@ namespace GanterLab13
 
 
         public int SpeedUp()
-        {if (Speed==0)
-            { Speed++;
-                return Speed;}
+        {if (Speed == 0)
+            { Speed++; }
+                return Speed;
                }
         
         public int   SlowDown()
@@ -47,7 +47,10 @@ namespace GanterLab13
             return Speed;
                     }
 
+        public void Display()
+        {
 
+        }
 
 
     }
