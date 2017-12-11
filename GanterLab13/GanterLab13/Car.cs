@@ -49,7 +49,7 @@ namespace GanterLab13
 
         public void Display()
         {
-
+            Console.WriteLine(Year + " " + Make + " " + Model + " is going " + Speed + " MPH.");
         }
 
 
