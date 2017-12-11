@@ -15,12 +15,12 @@ namespace GanterLab13
 
 
 
-        public Car(string make, string model, int year, int speed)
+        public Car(string make, string model, int year, int Speed)
         {
             this.Make = make;
             this.Model = model;
             this.Year = year;
-            this.Speed = speed;
+            this.Speed = Speed;
 
         }
 
@@ -33,6 +33,19 @@ namespace GanterLab13
 
         }
 
+
+         SpeedUp()
+        {if (Speed==0)
+            { Speed++;
+                return;}
+               }
+
+           SlowDown()
+        {if (Speed>0)
+
+            { Speed--; }
+            return;
+                    }
 
 
 
