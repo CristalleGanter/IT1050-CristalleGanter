@@ -42,8 +42,8 @@ namespace GanterLab13
         
         public int   SlowDown()
         {if (Speed>0)
-
             { Speed--; }
+       
             return Speed;
                     }
 
