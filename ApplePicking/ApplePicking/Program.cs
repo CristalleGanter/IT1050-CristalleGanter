@@ -23,9 +23,17 @@ namespace ApplePicking
             string ans;
             ans = Console.ReadLine();
 
-            Random bunny = new Random();
-            int randombunny = bunny.Next(0, 25);
-            if (randombunny == 25)
+
+           
+                Random random = new Random();
+                int randomNumber;
+                randomNumber = random.Next(0, 100);
+                
+
+            
+
+          
+            if (randomNumber == 25)
             { app = 0; Console.WriteLine("Oh no! A bunny ate all of your apples! You have {0} apples.", app); }
 
 
