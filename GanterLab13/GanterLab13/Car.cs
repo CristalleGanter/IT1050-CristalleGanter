@@ -29,20 +29,20 @@ namespace GanterLab13
             this.Make = make;
             this.Model = model;
             this.Year = year;
-            Speed = 0;
+            this.Speed = 0;
 
         }
 
 
         public int SpeedUp()
         {if (Speed == 0)
-            { Speed++; }
+            {Speed++; }
                 return Speed;
                }
         
         public int   SlowDown()
         {if (Speed>0)
-            { Speed--; }
+            {Speed--; }
        
             return Speed;
                     }
