@@ -11,8 +11,8 @@ namespace GanterLab13
         static void Main(string[] args)
         {
 
-            int car1Speed = 20;
-            int car2Speed = 0;
+            int car1Speed = 40;
+            int car2Speed = 30;
             Car car1 = new Car("Ford", "Focus", 2010, car1Speed);
             Car car2 = new Car("Chevy", "Cruze", 2018, car2Speed);
 
