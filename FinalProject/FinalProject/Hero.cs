@@ -79,8 +79,10 @@ namespace FinalProject
             // TODO: Problem 4 - if Power contains Fly, then output "Name is Flying!" else output "Name can't fly!"
             if (this.Power.Contains("Fly"))
             {
-
+                Console.WriteLine(Name + "is flying!");
             }
+            else
+            { Console.WriteLine(Name + "can't fly!"); }
         }
 
         public void Craft(string material, int numMaterials)
