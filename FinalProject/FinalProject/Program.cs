@@ -14,7 +14,7 @@ namespace FinalProject
             Hero myOtherHero = new Hero("Flash", "Zoom", "Human", "Speed", true);
             Hero thirdHero = new Hero("Wonder Woman", "All bad people", "Amazonian", "Stength, Speed, Fly");
 
-            thirdHero.Fly();
+
 
             /*
                 Problem 7:
@@ -25,6 +25,20 @@ namespace FinalProject
                  - Fly (at least one superhero should be able to fly)
                  - Climb
             */
+
+            myHero.ChargePower(500);
+            myOtherHero.ChargePower(9001);
+            thirdHero.ChargePower(525);
+
+            myHero.Fly();
+            myOtherHero.Fly();
+            thirdHero.Fly();
+
+
+            myHero.Climb(50);
+            myOtherHero.Climb(20);
+            thirdHero.Climb(25);
+
 
 
         }

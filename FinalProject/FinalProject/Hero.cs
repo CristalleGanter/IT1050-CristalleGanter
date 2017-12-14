@@ -58,7 +58,7 @@ namespace FinalProject
 
         public void FightCrime(string address)
         {
-            address = "123 Justice Avenue"; 
+           
             if(PowerLevel>49)
             { Console.WriteLine("Successfully fought crime at "+address); }
           
@@ -107,7 +107,8 @@ namespace FinalProject
         public int ChargePower(int increaseAmount)
         {
             increaseAmount = PowerLevel+5;
-            return PowerLevel;
+            return increaseAmount;
+            Console.WriteLine(increaseAmount);
         }
 
     }
