@@ -44,6 +44,15 @@ namespace FinalProject
             this.Antihero = antihero;
         }
 
+
+        public Hero(string lastName, string firstName)
+        {
+            string last = lastName;
+            string first = firstName;
+
+
+        }
+
         // TODO: Problem 1 - add a constructor method with a different number and/or types of parameters
 
         public void FightCrime(string address)
