@@ -69,9 +69,12 @@ namespace FinalProject
             // TODO: Problem 3 - output "Investigated Crime" and return true
             bool returnValue = true;
             return returnValue;
+            if (returnValue == true)
+            { Console.WriteLine("Investigated Crime"); }
         }
+       
 
-        public void Fly()
+    public void Fly()
         {
             // TODO: Problem 4 - if Power contains Fly, then output "Name is Flying!" else output "Name can't fly!"
             if (this.Power.Contains("Fly"))
