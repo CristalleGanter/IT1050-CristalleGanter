@@ -14,7 +14,7 @@ namespace FinalProject
             Hero myOtherHero = new Hero("Flash", "Zoom", "Human", "Speed", true);
             Hero thirdHero = new Hero("Wonder Woman", "All bad people", "Amazonian", "Stength, Speed, Fly");
 
-            myOtherHero.Fly();
+            thirdHero.Fly();
 
             /*
                 Problem 7:

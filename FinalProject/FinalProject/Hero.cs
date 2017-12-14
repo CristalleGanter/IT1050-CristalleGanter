@@ -72,17 +72,17 @@ namespace FinalProject
             if (returnValue == true)
             { Console.WriteLine("Investigated Crime"); }
         }
-       
 
-    public void Fly()
+        // TODO: Problem 4 - if Power contains Fly, then output "Name is Flying!" else output "Name can't fly!"
+        public void Fly()
         {
-            // TODO: Problem 4 - if Power contains Fly, then output "Name is Flying!" else output "Name can't fly!"
+            
             if (this.Power.Contains("Fly"))
             {
-                Console.WriteLine(Name + "is flying!");
+                Console.WriteLine(Name + " is flying!");
             }
             else
-            { Console.WriteLine(Name + "can't fly!"); }
+            { Console.WriteLine(Name + " can't fly!"); }
         }
 
         public void Craft(string material, int numMaterials)
@@ -95,9 +95,10 @@ namespace FinalProject
             Console.WriteLine(this.Name + " is climbing");
         }
 
+        // TODO: Problem 5 - increase this.PowerLevel by 1
         public int ChargePower()
         {
-            // TODO: Problem 5 - increase this.PowerLevel by 1
+            PowerLevel = PowerLevel++;
             return PowerLevel;
         }
 
