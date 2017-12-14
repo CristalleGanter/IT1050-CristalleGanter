@@ -44,6 +44,7 @@ namespace FinalProject
             this.Antihero = antihero;
         }
 
+        // TODO: Problem 1 - add a constructor method with a different number and/or types of parameters
 
         public Hero(string lastName, string firstName)
         {
@@ -53,11 +54,14 @@ namespace FinalProject
 
         }
 
-        // TODO: Problem 1 - add a constructor method with a different number and/or types of parameters
+        // TODO: Problem 2 - Output "Successfully fought crime at address" if PowerLevel > 49
 
         public void FightCrime(string address)
         {
-            // TODO: Problem 2 - Output "Successfully fought crime at address" if PowerLevel > 49
+            address = "123 Justice Avenue"; 
+            if(PowerLevel>49)
+            { Console.WriteLine("Successfully fought crime at "+address); }
+          
         }
 
         private bool Investigate()
