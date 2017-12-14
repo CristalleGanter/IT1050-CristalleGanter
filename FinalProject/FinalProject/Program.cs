@@ -10,7 +10,7 @@ namespace FinalProject
     {
         static void Main(string[] args)
         {
-            Hero myHero = new Hero();
+            Hero myHero = new Hero("Sesshoumaru", "Inuyasha","dog demon", "strength, speed, magic sword, demon dog transformation", true);
             Hero myOtherHero = new Hero("Flash", "Zoom", "Human", "Speed", true);
             Hero thirdHero = new Hero("Wonder Woman", "All bad people", "Amazonian", "Stength, Speed, Fly");
 
