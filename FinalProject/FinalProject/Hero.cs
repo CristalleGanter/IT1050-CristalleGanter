@@ -104,7 +104,11 @@ namespace FinalProject
 
         // TODO: Problem 6 - Add an overloaded method ChargePower that has a parameter for increaseAmount.  Add increaseAmount to this.PowerLevel and return the new value for this.PowerLevel (try to use a loop calling the other ChargePower)
 
-
+        public int ChargePower(int increaseAmount)
+        {
+            increaseAmount = PowerLevel+5;
+            return PowerLevel;
+        }
 
     }
 }
