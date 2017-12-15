@@ -30,6 +30,11 @@ namespace FinalProject
             myOtherHero.ChargePower(9001);
             thirdHero.ChargePower(525);
 
+            myHero.FightCrime("Somewhere in Japan");
+            myOtherHero.FightCrime("123 Justice Avenue");
+            thirdHero.FightCrime("555 Crime Alley");
+
+
             myHero.Fly();
             myOtherHero.Fly();
             thirdHero.Fly();
