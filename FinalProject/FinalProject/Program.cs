@@ -14,7 +14,9 @@ namespace FinalProject
             Hero myOtherHero = new Hero("Flash", "Zoom", "Human", "Speed", true);
             Hero thirdHero = new Hero("Wonder Woman", "All bad people", "Amazonian", "Stength, Speed, Fly");
 
-
+            myHero.PowerLevel = 250;
+            myOtherHero.PowerLevel = 55;
+            thirdHero.PowerLevel = 50;
 
             /*
                 Problem 7:
@@ -29,6 +31,11 @@ namespace FinalProject
             myHero.ChargePower(500);
             myOtherHero.ChargePower(9001);
             thirdHero.ChargePower(525);
+
+            myHero.Investigate();
+            myOtherHero.Investigate();
+            thirdHero.Investigate();
+
 
             myHero.FightCrime("Somewhere in Japan");
             myOtherHero.FightCrime("123 Justice Avenue");

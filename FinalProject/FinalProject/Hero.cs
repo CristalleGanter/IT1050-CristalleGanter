@@ -64,7 +64,7 @@ namespace FinalProject
           
         }
 
-        private bool Investigate()
+        public bool Investigate()
         {
             // TODO: Problem 3 - output "Investigated Crime" and return true
             bool returnValue = true;
@@ -106,9 +106,10 @@ namespace FinalProject
 
         public int ChargePower(int increaseAmount)
         {
-            increaseAmount = PowerLevel+5;
-            return increaseAmount;
-            Console.WriteLine(increaseAmount);
+            increaseAmount = this.PowerLevel+5;
+            return this.PowerLevel;
+            Console.WriteLine(this.PowerLevel);
+      
         }
 
     }
