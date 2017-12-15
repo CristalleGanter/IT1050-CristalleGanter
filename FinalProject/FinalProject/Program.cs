@@ -14,9 +14,9 @@ namespace FinalProject
             Hero myOtherHero = new Hero("Flash", "Zoom", "Human", "Speed", true);
             Hero thirdHero = new Hero("Wonder Woman", "All bad people", "Amazonian", "Stength, Speed, Fly");
 
-            myHero.PowerLevel = 250;
-            myOtherHero.PowerLevel = 55;
-            thirdHero.PowerLevel = 50;
+            myHero.PowerLevel = 49;
+            myOtherHero.PowerLevel = 49;
+            thirdHero.PowerLevel = 49;
 
             /*
                 Problem 7:
@@ -28,9 +28,9 @@ namespace FinalProject
                  - Climb
             */
 
-            myHero.ChargePower(500);
-            myOtherHero.ChargePower(9001);
-            thirdHero.ChargePower(525);
+            myHero.ChargePower(50);
+            myOtherHero.ChargePower(50);
+            thirdHero.ChargePower();
 
             myHero.Investigate();
             myOtherHero.Investigate();

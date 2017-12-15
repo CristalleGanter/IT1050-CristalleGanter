@@ -66,13 +66,11 @@ namespace FinalProject
 
         // TODO: Problem 3 - output "Investigated Crime" and return true
 
-        public bool Investigate()
+        private bool Investigate()
         {
-            
+            // TODO: Problem 3 - output "Investigated Crime" and return true
             bool returnValue = true;
             return returnValue;
-            if (returnValue == true)
-            { Console.WriteLine("Investigated Crime"); }
         }
 
         // TODO: Problem 4 - if Power contains Fly, then output "Name is Flying!" else output "Name can't fly!"
@@ -108,9 +106,9 @@ namespace FinalProject
 
         public int ChargePower(int increaseAmount)
         {
-            increaseAmount = this.PowerLevel+5;
-            return this.PowerLevel;
-            Console.WriteLine(this.PowerLevel);
+            PowerLevel = PowerLevel + increaseAmount;
+            return PowerLevel;
+            Console.WriteLine(PowerLevel);
       
         }
 
