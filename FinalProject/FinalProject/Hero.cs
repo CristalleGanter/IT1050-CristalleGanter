@@ -64,9 +64,11 @@ namespace FinalProject
           
         }
 
+        // TODO: Problem 3 - output "Investigated Crime" and return true
+
         public bool Investigate()
         {
-            // TODO: Problem 3 - output "Investigated Crime" and return true
+            
             bool returnValue = true;
             return returnValue;
             if (returnValue == true)
