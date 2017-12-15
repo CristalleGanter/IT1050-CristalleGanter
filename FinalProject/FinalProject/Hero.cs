@@ -103,7 +103,8 @@ namespace FinalProject
         // TODO: Problem 5 - increase this.PowerLevel by 1
         public int ChargePower()
         {
-            PowerLevel = PowerLevel++;
+            if (PowerLevel <= 49)
+            { PowerLevel++; }
             return PowerLevel;
         }
 
@@ -112,9 +113,9 @@ namespace FinalProject
         public int ChargePower(int increaseAmount)
         {
             PowerLevel = PowerLevel + increaseAmount;
-            return PowerLevel;
+           
             Console.WriteLine(PowerLevel);
-      
+            return PowerLevel;
         }
 
     }
