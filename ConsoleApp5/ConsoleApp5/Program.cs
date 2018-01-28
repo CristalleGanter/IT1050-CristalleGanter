@@ -17,14 +17,27 @@ namespace ConsoleApp5
             {
                 Console.WriteLine(a);
 
+                if (a % 3 == 0)
+
+                {
+                    Console.WriteLine("On");
+                }
+                if (a % 7 == 0)
+
+                {
+                    Console.WriteLine("Base");
+                }
+
+                if (a % 3 == 0 && a % 7 ==0)
+
+                {
+                    Console.WriteLine("OnBase");
+                }
+
             }
 
             
-            if (a % 3 == 0)
-
-                {
-                Console.WriteLine("On");
-            }
+           
 
         }
     }
