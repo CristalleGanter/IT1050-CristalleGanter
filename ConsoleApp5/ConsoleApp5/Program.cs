@@ -10,12 +10,20 @@ namespace ConsoleApp5
     {
         static void Main(string[] args)
         {
+            int a = 1;
 
 
-            for (int a = 1;  a <= 100; a++)
+            for (; a<= 100; a++)
             {
                 Console.WriteLine(a);
 
+            }
+
+            
+            if (a % 3 == 0)
+
+                {
+                Console.WriteLine("On");
             }
 
         }
