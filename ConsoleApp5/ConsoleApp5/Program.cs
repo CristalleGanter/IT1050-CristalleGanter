@@ -17,6 +17,9 @@ namespace ConsoleApp5
             {
                 Console.WriteLine(a);
 
+                int c;
+                a % 3 == 0 ? : a;
+
                 if (a % 3 == 0)
 
                 {
