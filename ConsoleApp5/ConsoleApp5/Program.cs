@@ -10,6 +10,14 @@ namespace ConsoleApp5
     {
         static void Main(string[] args)
         {
+            //int[] arr1 = new int[100];
+           // for (int i = 0; i < arr1.Length; i++)
+               // arr1[i] = i;
+
+            int[] scores = new int[] { 97, 92, 81, 60 };
+
+            Console.WriteLine(scores);
+
             int a = 1;
 
 
@@ -17,13 +25,17 @@ namespace ConsoleApp5
             {
                 Console.WriteLine(a);
 
-                int c;
-                a % 3 == 0 ? : a;
+               
+              
 
                 if (a % 3 == 0)
 
                 {
+
                     Console.WriteLine("On");
+
+
+                   
                 }
                 if (a % 7 == 0)
 
@@ -36,6 +48,9 @@ namespace ConsoleApp5
                 {
                     Console.WriteLine("OnBase");
                 }
+
+                
+
 
             }
 
