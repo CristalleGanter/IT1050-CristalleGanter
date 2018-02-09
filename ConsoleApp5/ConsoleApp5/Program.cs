@@ -11,22 +11,23 @@ namespace ConsoleApp5
         static void Main(string[] args)
         {
             //int[] arr1 = new int[100];
-           // for (int i = 0; i < arr1.Length; i++)
-               // arr1[i] = i;
-
-            int[] scores = new int[] { 97, 92, 81, 60 };
-
-            Console.WriteLine(scores);
-
-            int a = 1;
+            // for (int i = 0; i < arr1.Length; i++)
+            // arr1[i] = i;
 
 
-            for (; a<= 100; a++)
+       
+
+
+
+            
+
+
+            for (int a = 1;  a<= 100; a++)
             {
-                Console.WriteLine(a);
 
-               
-              
+
+
+
 
                 if (a % 3 == 0)
 
@@ -35,27 +36,33 @@ namespace ConsoleApp5
                     Console.WriteLine("On");
 
 
-                   
+
                 }
-                if (a % 7 == 0)
+                else if (a % 7 == 0)
 
                 {
                     Console.WriteLine("Base");
                 }
 
-                if (a % 3 == 0 && a % 7 ==0)
+                else 
 
                 {
                     Console.WriteLine("OnBase");
                 }
 
-                
 
+              //  int[] integers = new int[999];
+               // for (int i = 1; i < 999; i++)
+             //   {
+               //     i++;
 
+                //    Console.WriteLine(integers);
+              //  }
+               
             }
 
-            
-           
+
+            Console.Read();
 
         }
     }
